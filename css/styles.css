@@ -120,11 +120,9 @@ button{
 
 .banner-section {
     background-color: #2E2F42;
-}
-
-.banner-section .container {
     padding: 188px 316px;
 }
+
 
 .title  {
     color:#ffffff;
@@ -166,9 +164,10 @@ button{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-section .container{
+.features-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -200,10 +199,8 @@ section .container{
 
 .team-section {
     background-color: #F4F4FD;
-}
-
-.section-title{
-margin-bottom: 72px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-cards{
@@ -218,7 +215,7 @@ margin-bottom: 72px;
 }
 
 .card-content{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-cards .card-content{
@@ -226,6 +223,10 @@ margin-bottom: 72px;
 
 }
 
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .portfolio-cards{
     display: flex;
     flex-wrap: wrap;
@@ -248,16 +249,13 @@ margin-bottom: 72px;
 .footer {
     color:#F4F4FD;
     background-color: #2E2F42;
-}
-
-.footer .container{
-padding-top: 100px;
-padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer .logo{
     display: inline-block;
-margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer .logo-accent {
@@ -266,11 +264,10 @@ margin-bottom: 16px;
 
 .footer-text{
     font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
     width: 264px;
 
 }
-
